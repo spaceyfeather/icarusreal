@@ -1,0 +1,27 @@
+:root {
+    --color1: #EEF9F9;
+    --color2: #D8F1F1;
+    --color3: #C5E9E9;
+
+}
+
+body {
+    background: linear-gradient(var(--color1), var(--color3)) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Merienda One', cursive;
+}
+
+footer {
+    text-align: right;
+    margin-top: 2em;
+    font-style: italic;
+}
+
+#p5-canvas {
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+}
